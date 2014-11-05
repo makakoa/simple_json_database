@@ -2,10 +2,8 @@
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   '--save-dev',
-1 verbose cli   'grunt',
-1 verbose cli   'grunt-contrib-jshint',
-1 verbose cli   'jscs' ]
+1 verbose cli   'express',
+1 verbose cli   'body-parser' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
 4 error Failed to parse json
@@ -17,7 +15,7 @@
 6 error This is not a bug in npm.
 6 error Tell the package author to fix their package.json file. JSON.parse
 7 error System Linux 3.17.0-031700-generic
-8 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "grunt" "grunt-contrib-jshint" "jscs"
+8 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express" "body-parser"
 9 error cwd /home/makakoa/Documents/codefellows/simple_json_database
 10 error node -v v0.10.33
 11 error npm -v 1.4.28
